@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta  name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link href="app.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2> Create User</h2>
+        </div>
+        <form class="form">
+            <div class="form-control">
+                <label for="studentName" name="studentName">Nama Lengkap</label>
+                <input id="txtuserName" type="text" name="studentName" />
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="studentId" name="studentId">ID Siswa</label>
+                <input id="txtID" type="text" name="studentId" />
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="email" name="email">Email</label>
+                <input id="txtEmail" type="email" name="email" />
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="password" name="password">Password</label>
+                <input id="txtPwd" type="password" name="password" />
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="birthDate" name="birthDate">Tanggal Lahir</label>
+                <input id="txtbirthDate" type="date" name="birthDate" />
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <button>Register</button>
+
+            </div>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
